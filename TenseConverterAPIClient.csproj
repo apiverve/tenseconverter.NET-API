@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.TenseConverter</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/tenseconverter</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Tense Converter is a simple tool for converting text to past or future tense. It returns the text converted to the specified tense.</Description>
+    <RepositoryUrl>https://github.com/apiverve/tenseconverter-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>tense converter; tense converter api; tense converter tool; tense converter software; tense converter service; tense converter library; tense converter sdk; tense converter code; tense converter script; tense converter program; tense converter application; tense converter app; tense converter utility; tense converter helper; tense converter helper tool; tense converter helper software; tense converter helper service; tense converter helper library; tense converter helper sdk; tense converter helper code; tense converter helper script; tense converter helper program; tense converter helper application; tense converter helper app; tense converter helper utility; tense converter helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
