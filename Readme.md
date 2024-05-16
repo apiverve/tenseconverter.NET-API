@@ -71,8 +71,8 @@ Using the API client, you can perform requests to the API.
 
 ```
 var queryOptions = new tenseconverterQueryOptions{
-  "text": "I am walking down the street, and I can see a dog",
-  "tense": "past"
+  text: "I am walking down the street, and I can see a dog",
+  tense: "past"
 };
 ```
 
