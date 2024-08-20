@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new tenseconverterQueryOptions {
+var queryOptions = new TenseConverterQueryOptions {
   text = "I am walking down the street, and I can see a dog",
   tense = "past"
 };
@@ -98,7 +98,8 @@ if(response.error != null) {
     "tense": "past",
     "result": "I was walking down the street, and I could see a dog",
     "changed": true
-  }
+  },
+  "code": 200
 }
 ```
 
