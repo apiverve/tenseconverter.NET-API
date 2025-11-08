@@ -5,7 +5,7 @@ using System.Text;
 namespace APIVerve
 {
     public class TenseConverterQueryOptions {
-public string text { get; set; }
-public string tense { get; set; }
+public string Text { get; set; }
+public string Tense { get; set; }
 }
 }
